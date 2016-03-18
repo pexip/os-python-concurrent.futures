@@ -1,3 +1,9 @@
+python-concurrent.futures (3.0.5-1pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Fri, 18 Mar 2016 19:39:45 +0000
+
 python-concurrent.futures (3.0.5-1) unstable; urgency=medium
 
   * New upstream release.
