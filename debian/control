@@ -7,7 +7,6 @@ XSBC-Pexip-Original-Uploaders: Thomas Goirand <zigo@debian.org>,
            Ondřej Nový <novy@ondrej.org>,
 Build-Depends: debhelper (>= 9),
                dh-python,
-               openstack-pkg-tools,
                python-all,
                python-setuptools,
                python-sphinx,
@@ -22,8 +21,7 @@ Package: python-concurrent.futures
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends},
-         ${shlibs:Depends},
-         ${sphinxdoc:Depends}
+         ${shlibs:Depends}
 Provides: python-futures
 Description: backport of concurrent.futures package from Python 3.2
  The concurrent.futures module provides a high-level interface for
